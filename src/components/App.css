@@ -1,0 +1,32 @@
+.app {
+  flex: 1 1 0;
+  height: 100%;
+}
+
+header {
+  font-size: 4em;
+  text-align: center;
+}
+.learn_more {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.learn_more_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.popup_button {
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  outline: 0;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
