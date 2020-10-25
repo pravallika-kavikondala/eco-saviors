@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed with Heroku.
+
+https://eco-saviors.herokuapp.com/
 
 ## Available Scripts
 
