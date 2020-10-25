@@ -2,26 +2,41 @@ export const data = [
   {
     title: "Liquid Waste",
     content:
-      "Found in households and industries, this includes dirty water, organic liquids, wash water, waste detergents and even rainwater. This can be classified into point source(manufactured liquid waste) and non-point source(natural liquid) waste. When non-hazardous liquid waste is involved, it’s relatively easy to dispose of it. A method called dewatering is often used to make it easy to dispose of this waste. The way it works is that the waste is placed into something like a large bag. The water is then removed so only the solid waste is left behind. After this the solid waste is disposed in a landfill",
+      "Liquid waste can be defined as liquids such as wastewater, fats, oils or grease (FOG), used oil, liquids, solids, gases, or sludges and hazardous household liquids. If you need to dispose of liquid waste, these are some of the most common methods used for dealing with it.",
+    subitems: ["Dewatering", "Incineration", "Composting", "Root Zone"],
   },
   {
     title: "Solid Waste",
     content:
-      "Solid waste can be found in household, commercial and industrial locations. The types of solid waste and ways to dispose them include: Plastic waste – This consists of bags, containers, jars, bottles and many other products that can be found in your household. Plastic is not biodegradable, but many types of plastic can be recycled. Plastic should not be mixed with regular waste, it should be sorted and placed in a recycling bin. Paper/card waste – This includes packaging materials, newspapers, cardboards and other products. Paper can easily be recycled and reused so make sure to place them in your recycling bin. Tins and metals – This can be found in various forms throughout your home. Most metals can be recycled. Consider taking these items to a scrap yard. Ceramics and glass – These items can easily be recycled. Look for special glass recycling bins and bottle banks to dispose them correctly.",
+      "Garbage arising from human or animal activities, that is abandoned as unwanted and useless is referred as solid waste.",
+    subitems: [
+      "Solid wastes sanitary landfills",
+      "Incineration method",
+      "Composting process",
+      "Fermentation/biological digestion",
+    ],
   },
   {
     title: "Organic Waste",
     content:
-      "Organic waste is another common household. All food waste, garden waste, manure and rotten meat are classified as organic waste. Over time, organic waste is turned into manure by microorganisms. However, this does not mean that you can dispose them anywhere. Organic waste in landfills causes the production of methane, so it must never be simply discarded with general waste. They need to be disposed off in green bins/garden bags.",
+      "Organic wastes are materials that originate from plant and animal sources. The organic wastes are the major raw material of organic fertilizer.",
+    subitems: ["Biogas", "Incineration", "Compost", "Fast Fermentation"],
   },
   {
     title: "Recyclable Waste",
     content:
-      "Recyclable waste includes all waste items that can be converted into products that can be used again. Solid items such as paper, metals, furniture and organic waste can all be recycled. Instead of throwing these items in with regular waste, which then ends up in landfills, place them in your yellow recycling bin. If you’re unsure whether an item is recyclable or not, look at the packaging or the diagrams on the lid of your yellow recycling bin. Most products will explicitly state whether they are recyclable or not.",
+      "Recyclable materials include many kinds of glass, paper, cardboard, metal, plastic, tires, textiles, batteries, and electronics. The composting or other reuse of biodegradable waste — such as food or garden waste — is also a form of recycling.",
+    subitems: [
+      "E- cycling",
+      "Buy rechargeable batteries",
+      "Recycle your empty ink and toner cartridges",
+      "Recycle old newspapers",
+    ],
   },
   {
     title: "Hazardous Waste",
     content:
-      "Hazardous waste includes all types of waste that are flammable, toxic, corrosive and reactive. These items can harm people as well as the environment and must be disposed of correctly. Therefore, it is recommended to make use of a waste removal company for proper disposal of all hazardous waste.",
+      "Hazardous waste includes all types of waste that are flammable, toxic, corrosive and reactive. The United States Environmental Protection Agency (EPA) defines hazardous waste as any type of waste that is harmful to both humans or the environment. This can be any waste (in solid, liquid, or any other state) that is toxic, flammable, corrosive, and reactive.",
+    subitems: ["Landfill Disposal", "Incineration", "Underground Disposal"],
   },
 ];

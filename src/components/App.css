@@ -1,28 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+
 .app {
   flex: 1 1 0;
   height: 100%;
 }
 
 header {
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
+  font-family: "Ribeye", sans-serif;
 }
-.learn_more {
+
+.about_us {
   padding: 2rem;
-  background-color: black;
+  background-color: green;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  width: 900px;
+  text-align: center;
 }
 
 .learn_more_section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.learn_more_section button:first-child {
+  margin: 0;
 }
 
 .popup_button {
   padding: 1rem;
   margin-top: 2rem;
+  margin-right: 3rem;
   font-size: 1rem;
   border-radius: 30px;
   outline: 0;

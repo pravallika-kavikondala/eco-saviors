@@ -13,10 +13,11 @@ class App extends PureComponent {
     showPopup: false,
     title: "",
     content: "",
+    subitems: [],
   };
 
   closeModal = () =>
-    this.setState({ showPopup: false, title: "", content: "" });
+    this.setState({ showPopup: false, title: "", content: "", subitems: [] });
 
   render() {
     return (
@@ -25,7 +26,7 @@ class App extends PureComponent {
           <Carousel.Item>
             <img
               width="500"
-              height="400"
+              height="450"
               className="d-block w-100"
               src={pic1}
               alt="First slide"
@@ -35,7 +36,7 @@ class App extends PureComponent {
           <Carousel.Item>
             <img
               width="500"
-              height="400"
+              height="450"
               className="d-block w-100"
               src={pic2}
               alt="Second slide"
@@ -45,7 +46,7 @@ class App extends PureComponent {
           <Carousel.Item>
             <img
               width="500"
-              height="400"
+              height="450"
               className="d-block w-100"
               src={pic3}
               alt="Third slide"
@@ -54,13 +55,20 @@ class App extends PureComponent {
           </Carousel.Item>
         </Carousel>
 
-        <div className="learn_more">
-          <header>Learn more</header>
+        <div className="about_us">
+          <header>Eco-Saviors</header>
+          <p># Make the right contribution</p>
+          <p>
+            Do you want to make a positive impact towards the climate? You’re at
+            the right place! We at “Eco-saviors” help you achieve this! We’re
+            dedicated to providing the best waste disposal services. Check out
+            our EcoBot to get started.
+          </p>
         </div>
 
         <section className="learn_more_section">
-          <div className="popup_container">
-            {data.map(({ title, content }) => (
+          <div>
+            {data.map(({ title, content, subitems }) => (
               <button
                 className="popup_button"
                 key={title}
@@ -69,6 +77,7 @@ class App extends PureComponent {
                     showPopup: true,
                     content: content,
                     title: title,
+                    subitems: subitems,
                   })
                 }
               >
@@ -87,6 +96,7 @@ class App extends PureComponent {
         <InfoPopup
           title={this.state.title}
           content={this.state.content}
+          subitems={this.state.subitems}
           showPopup={this.state.showPopup}
           handleClose={this.closeModal}
         />
