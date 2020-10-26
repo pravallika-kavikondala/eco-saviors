@@ -1,3 +1,11 @@
+# SAP iXp Hack4Good Submission
+See more details at https://devpost.com/software/eco-saviors <br />
+Demo Video: https://youtu.be/qkw0lEj9yXk <br />
+Other Contributors:
+- Aishwarya Vantipuli
+- Anusha Bharat
+- Cindy Lim
+
 ## Eco Saviors
 A web app that gives you information about all the best methods to effectively dispose of different types of waste, with a chatbot which keeps users updated about latest climate news, effects of different materials on the environment and the ability to schedule a pick-up with different waste management centers nearby.
 
